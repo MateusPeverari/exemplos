@@ -12,7 +12,7 @@ public class Main {
     listaNumeros.add(4);
 
     try {
-      System.out.println(Busca.buscarValor(listaNumeros, 10));
+      System.out.println(Busca.buscarValor(listaNumeros, 20));
     } catch (NaoEncontradaException exception) {
       System.out.println(exception.getMessage());
     }
